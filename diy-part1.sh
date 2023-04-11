@@ -14,5 +14,12 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#echo 'src-git packages https://github.com/x-wrt/packages' >>feeds.conf.default
+#echo 'src-git luci https://github.com/x-wrt/luci' >>feeds.conf.default
+#echo 'src-git routing https://github.com/x-wrt/routing' >>feeds.conf.default
+#echo 'src-git telephony https://github.com/x-wrt/telephony' >>feeds.conf.default
+#echo 'src-git x https://github.com/x-wrt/com.x-wrt' >>feeds.conf.default
+#echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+#echo 'src-git small git://github.com/kenzok8/small' >>feeds.conf.default
+#echo 'src-git freifunk https://github.com/freifunk/openwrt-packages' >>feeds.conf.default
+
